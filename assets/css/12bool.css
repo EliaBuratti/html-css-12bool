@@ -1,5 +1,28 @@
-[class^="col"] {
+/* [class^="col"] {
     background-color: rgb(30, 103, 205);
-    height: 2rem;
+    height: 4rem;
+    border: 2px solid white;
+    display: flex;
+    color: white;
+} */
+
+.row>div {
+    background-color: rgb(30, 103, 205);
+    padding: 1rem;
+    border: 2px solid white;
+    display: flex;
+    color: white;
 }
 
+.row>div>div {
+    background-color: limegreen;
+    height: 100%;
+    padding: 1rem;
+    border: 2px solid rgb(30, 103, 205);
+}
+
+
+[class^="col-"] {
+    justify-content: center;
+    align-items: center;
+}

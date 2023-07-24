@@ -8,24 +8,63 @@
 
 /* utilities */
 
+.container {
+/*     max-width: 1170px;*/
+    height: auto;
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.just-center {
+    justify-content: center;
+}
+
+.just-between {
+    justify-content: space-between;
+}
+
+.just-evenly {
+    justify-content: space-evenly;
+}
+
+.al-left {
+    align-items: start;
+}
+
+.al-center {
+    align-items: center;
+}
+
+.al-right {
+    align-items: end;
+}
+
 .col-1 {
-    width: calc(100% * 12 / 1);
+    width: calc(100% / 12 * 1);
 }
 
 .col-2 {
-    width: calc(100% * 12 / 2);
+    width: calc(100% / 12 * 2);
 }
 
 .col-3 {
-    width: calc(100% * 12 / 3);
+    width: calc(100% / 12 * 3);
 }
 
 .col-4 {
-    width: calc(100% * 12 / 4);
+    width: calc(100% / 12 * 4);
 }
 
 .col-5 {
-    width: calc(100% * 12 / 5);
+    width: calc(100% / 12 * 5);
 }
 
 .col-6 {
@@ -33,26 +72,49 @@
 }
 
 .col-7 {
-    width: calc(100% * 12 / 7);
+    width: calc(100% / 12 * 7);
 }
 
 .col-8 {
-    width: calc(100% * 12 / 8);
+    width: calc(100% / 12 * 8);
 }
 
 .col-9 {
-    width: calc(100% * 12 / 9);
+    width: calc(100% / 12 * 9);
 }
 
 .col-10 {
-    width: calc(100% * 12 / 10);
+    width: calc(100% / 12 * 10);
 }
 
 .col-11 {
-    width: calc(100% * 12 / 11);
+    width: calc(100% / 12 * 11);
 }
 
 .col-12 {
     width: 100%;
 }
 
+.fl-1 {
+    flex-grow: 1;
+}
+
+.fl-2 {
+    flex-grow: 2;
+}
+
+.p-1 {
+    padding: 0.5rem;
+}
+
+.p-2 {
+    padding: 1rem;
+}
+
+.p-3 {
+    padding: 1.5rem;
+}
+
+.p-4 {
+    padding: 2rem;
+}
