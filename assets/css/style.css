@@ -9,6 +9,7 @@
 .row>div {
     background-color: rgb(30, 103, 205);
     padding: 1rem;
+    min-height: 4rem;
     border: 2px solid white;
     display: flex;
     color: white;
